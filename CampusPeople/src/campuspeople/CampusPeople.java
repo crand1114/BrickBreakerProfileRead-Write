@@ -32,11 +32,16 @@ public class CampusPeople {
         Staff s=new Staff();
         Faculty f=new Faculty();
         Date birthDate=new Date();
+        
+
+        
+        
        p.setBirthDate(birthDate);
        p.setFirstname("Charles");
        p.setLastname("Randall");
        p.setPhoneNumber("phoneNumber");
        p.setStudentId("Id");
+       p.setBirthDate(birthDate);
 
 
        

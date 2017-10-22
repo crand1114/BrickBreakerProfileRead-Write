@@ -28,7 +28,7 @@ public class Person {
      lastname=lname;
      studentId=sid;
      this.phoneNumber=phoneNumber;
-    dateToString(this.birthDate);
+     this.birthDate=stringToDate(birthDate);
      
         
         
@@ -45,7 +45,17 @@ public class Person {
     public String getFirstname() {
         return firstname;
     }
+    private Date stringToDate(String sDate) {
+        DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
 
+        try {
+            return df.parse(sDate);
+        } catch (java.text.ParseException ex) {
+            System.err.println("Could not convert input date to Date object: " + sDate);
+            System.exit(-1);
+        } 
+        return null;
+    }
     /**
      * @param firstname the firstname to set
      */
