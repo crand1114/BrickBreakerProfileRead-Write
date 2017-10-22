@@ -68,7 +68,10 @@ public class Faculty extends Employee {
         String format="";
         format+=super.toString()+System.lineSeparator()+rank+", "+researchArea+System.lineSeparator();
    for(int i=0;i<currentCourses.size();i++){
-            format+=currentCourses.get(i)+", ";
+       format+=currentCourses.get(i);
+            if (i +1!=currentCourses.size()) {
+                format+=",";
+            }
         }
         return format;
     

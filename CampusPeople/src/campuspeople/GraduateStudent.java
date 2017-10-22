@@ -9,13 +9,14 @@ package campuspeople;
  *
  * @author charles randall
  */
-public class GraduateStudent extends Student{
+public class GraduateStudent extends Student {
+
     private String thesis;
     private String concentration;
     private String assistanceType;
-    
-    public GraduateStudent(){
-        
+
+    public GraduateStudent() {
+
     }
 
     /**
@@ -59,11 +60,11 @@ public class GraduateStudent extends Student{
     public void setAssistanceType(String assistanceType) {
         this.assistanceType = assistanceType;
     }
-    public String toString(){
-        String form="";
-        form+=super.toString()+System.lineSeparator()+thesis+","+concentration+","+assistanceType;
-    return form;
-    }
-        
+
+    public String toString() {
+        String form = "";
+        form += super.toString() + System.lineSeparator() + thesis + "," + concentration + "," + assistanceType;
+        return form;
     }
 
+}

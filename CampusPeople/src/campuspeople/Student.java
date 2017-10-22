@@ -18,7 +18,7 @@ public class Student extends Person{
     protected ArrayList<String> classSchedule;
     
     public Student(){
-        
+        classSchedule=new ArrayList<>();
     }
     public Student(String fname,String lname, String sid, String  birthDate, String phoneNumber, String maj,int cred, float grade){
         major=maj;
@@ -87,7 +87,10 @@ public class Student extends Person{
         String form="";
         form+=super.toString()+System.lineSeparator()+major+", "+creditHours+", "+gpa+System.lineSeparator();
         for(int i=0;i<classSchedule.size();i++){
-            form+=classSchedule.get(i)+", ";
+            form+=classSchedule.get(i);
+            if (i +1!=classSchedule.size()) {
+                form+=",";
+            }
         }
         return form;
     }

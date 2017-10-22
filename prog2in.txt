@@ -1,3 +1,5 @@
+Computer Science
+A&T
 U
 Christopher,Rich,      123456789, 06/17/1988    ,    336-404-5454
 Computer Science, 51,3.52
@@ -6,8 +8,7 @@ G
 Joey, Dooda, 123456789, 06/17/1988, 336-888-5454
 Computer Science,  19  , 3.72
 COMP365, MATH201, GEEN325
-Generic Register Allocation on CIS Architectures
-Software Engineering, RA
+Generic Register Allocation on CIS Architectures,Software Engineering, RA
 S
 Mo, Greene,950123456,9/19/1994,301-322-4099
 11/11/2011,PT, Music
@@ -23,8 +24,7 @@ Jamie, Foxx,45504532,12/16/1985, 757-946-7654
 Assistant, Research and Development
 CHEM131 , MATH 105 , PHYS 202
 F
-Condoleezza, Rice, 45504532, 11/14/1954
-359-456-0987
+Condoleezza, Rice, 45504532, 11/14/1954, 359-456-0987
 4/16/2005, FT, Political Science
 Full, International Relations
 POSC765, ECON440
