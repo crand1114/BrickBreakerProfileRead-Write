@@ -1,3 +1,5 @@
+Computer Science Department
+McNair Hall 526
 U
 Christopher,Rich,      123456789, 06/17/1988    ,    336-404-5454
 Computer Science, 51,3.52
@@ -6,8 +8,7 @@ G
 Joey, Dooda, 123456789, 06/17/1988, 336-888-5454
 Computer Science,  19  , 3.72
 COMP365, MATH201, GEEN325
-Generic Register Allocation on CIS Architectures
-Software Engineering, RA
+Generic Register Allocation on CIS Architectures, Software Engineering, RA
 S
 Mo, Greene,950123456,9/19/1994,301-322-4099
 11/11/2011,PT, Music
@@ -70,5 +71,3 @@ S
 Joe, Jones,050123809,6/11/1984,301-302-4009
 3/16/2015,PT, Student Union
 Assistant Director of Student Affairs, Barbera Julias,Advanced
-
-
