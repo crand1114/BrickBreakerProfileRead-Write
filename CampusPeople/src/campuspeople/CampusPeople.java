@@ -14,6 +14,7 @@ import java.util.Date;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
@@ -33,14 +34,15 @@ public class CampusPeople {
         Staff s = new Staff();
         Faculty f = new Faculty();
         Date birthDate = new Date();
-
+if (args[0].isEmpty())
+    d.readDepartment("");
+else
         d.readDepartment(args[0]);
-        
-        Scanner keyboard= new Scanner(System.in);
-        JOptionPane.showMessageDialog(null, "INPUT FILE NAME");
-        String filename=keyboard.next();
-        d.writeDepartment(filename);
 
+     
+       String filename=JOptionPane.showInputDialog("INPUT FILE Name");
+        d.writeDepartment(filename);
+     
     }
 
     // TODO code application logic here
