@@ -34,13 +34,16 @@ public class CampusPeople {
         Staff s = new Staff();
         Faculty f = new Faculty();
         Date birthDate = new Date();
-if (args[0].isEmpty())
-    d.readDepartment("");
+        String input ="";
+if (args.length==0){
+    input=JOptionPane.showInputDialog("File not found in directory enter file Name");
+    d.readDepartment(input);
+}
 else
         d.readDepartment(args[0]);
 
      
-       String filename=JOptionPane.showInputDialog("INPUT FILE Name");
+       String filename=JOptionPane.showInputDialog("INPUT NEW FILE Name");
         d.writeDepartment(filename);
      
     }
